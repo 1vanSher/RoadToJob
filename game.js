@@ -1,8 +1,8 @@
-function getRandomNumer(max){
+function getRandomNumber(max){
     return Math.floor(Math.random() * max);
 }
 
-const secretNumber = getRandomNumer(100);
+const secretNumber = getRandomNumber(100);
 console.log('Компьютер загадал число ' + secretNumber);
 
 function searchNumber(){
