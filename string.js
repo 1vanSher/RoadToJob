@@ -20,3 +20,7 @@ function paragraphBreak(text, maxLength) {
     truncated = truncated.slice(0, cutIndex); 
     return truncated + "..."; 
 }
+
+function isStrIncludes(str1, str2) {
+    return str1.includes(str2) || str2.includes(str1);
+}
